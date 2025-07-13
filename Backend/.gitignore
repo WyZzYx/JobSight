@@ -44,5 +44,6 @@ node_modules/
 jscoverage_lib/
 src/main/webapp/WEB-INF/ftl/rsrc/
 src/main/webapp/rsrc/dist/
-src/main/resources/application.properties
+src/main/resources/application.yml
 webpack-assets.json
+.env

@@ -8,6 +8,8 @@ public class JobSightApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JobSightApplication.class, args);
+
+
 	}
 
 }
