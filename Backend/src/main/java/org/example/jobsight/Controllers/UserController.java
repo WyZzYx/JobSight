@@ -13,7 +13,7 @@ public class UserController {
     }
 
     @GetMapping()
-    public User findByUsername(String username) {
-        return userService.findByUsername(username);
+    public User findByName(String username) {
+        return userService.findByName(username);
     }
 }
