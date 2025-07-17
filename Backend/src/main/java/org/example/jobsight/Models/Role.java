@@ -1,11 +1,11 @@
 package org.example.jobsight.Models;
 
 import jakarta.persistence.*;
-import org.springframework.security.core.GrantedAuthority;
+
 
 @Entity
 @Table(name = "roles")
-public class Role implements GrantedAuthority {
+public class Role  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -31,10 +31,7 @@ public class Role implements GrantedAuthority {
         this.authority = authority;
     }
 
-    @Override
-    public String getAuthority() {
-        return this.authority;
-    }
+
 
     public void setId(Long id) {
         this.id = id;
